@@ -1,22 +1,94 @@
 aid: liquidia
 name: Liquidia
-description: Liquidia is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Liquidia Corporation (NASDAQ: LQDA) is a biopharmaceutical company focused
+  on the development and commercialization of inhaled therapies for cardiopulmonary
+  disease, specifically pulmonary arterial hypertension (PAH) and pulmonary hypertension
+  associated with interstitial lung disease (PH-ILD). Its proprietary PRINT technology
+  produces drug particles of uniform size and shape engineered for deep-lung deposition,
+  and underpins YUTREPIA, its inhaled treprostinil dry powder product. Liquidia is
+  also developing L606, a sustained-release liposomal treprostinil inhalation suspension
+  partnered with Pharmosa Biopharm. Liquidia publishes no public developer portal,
+  API, or machine-readable interface; this profile is catalogued for network identity,
+  corporate transparency, and domain-security coverage only.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.liquidia.com/sites/g/files/knoqqb101156/themes/site/client_site_301/dist/images/liquidia-logo-full.svg
 url: https://raw.githubusercontent.com/api-evangelist/liquidia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biopharmaceutical
+- Pharmaceuticals
+- Life Sciences
+- Healthcare
+- Drug Delivery
+- Pulmonary Hypertension
+- Clinical Trials
+- Inhaled Therapeutics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/liquidia-domain-security.yml
+- type: Website
+  url: https://www.liquidia.com/
+- type: About
+  url: https://www.liquidia.com/about-us
+- type: Contact
+  url: https://www.liquidia.com/contact-us
+- type: Support
+  url: https://www.liquidia.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.liquidia.com/privacy
+- type: TermsOfService
+  url: https://www.liquidia.com/legal
+- type: CookiePolicy
+  url: https://www.liquidia.com/cookies
+- type: Accessibility
+  url: https://www.liquidia.com/accessibility
+- type: PressReleases
+  url: https://www.liquidia.com/investors/press-releases
+- type: BlogRSS
+  url: https://www.liquidia.com/rss/news-releases.xml
+- type: EventsRSS
+  url: https://www.liquidia.com/rss/events.xml
+- type: SECFilingsRSS
+  url: https://www.liquidia.com/rss/sec-filings.xml
+- type: Investors
+  url: https://www.liquidia.com/investors/overview
+- type: Careers
+  url: https://liquidia.careers.hibob.com/
+- type: Products
+  url: https://www.liquidia.com/pipeline-and-products
+- type: Technology
+  url: https://www.liquidia.com/technology
+- type: CorporateSocialResponsibility
+  url: https://csr.liquidia.com/en/
+- type: LLMsTxt
+  url: llms/liquidia-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
