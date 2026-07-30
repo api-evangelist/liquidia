@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: probed
+source: https://www.liquidia.com/
+note: No /.well-known/ discovery documents are published. Recorded as verified absence;
+  no WellKnown/SecurityTxt pointer is wired in apis.yml because nothing returned 200.
+hosts:
+- host: https://liquidia.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    note: WAF/edge block, not a served document
+- host: https://www.liquidia.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    note: WAF/edge block, not a served document

@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.liquidia.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 14 03:17:25 2026 GMT
+  hsts: null
+domains:
+- domain: liquidia.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
