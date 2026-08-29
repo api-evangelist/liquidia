@@ -10,6 +10,17 @@ description: 'Liquidia Corporation (NASDAQ: LQDA) is a biopharmaceutical company
   partnered with Pharmosa Biopharm. Liquidia publishes no public developer portal,
   API, or machine-readable interface; this profile is catalogued for network identity,
   corporate transparency, and domain-security coverage only.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
