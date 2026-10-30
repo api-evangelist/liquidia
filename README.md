@@ -64,18 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Liquidia Corporation (NASDAQ: LQDA) is a biopharmaceutical company developing and commercializing inhaled therapies for cardiopulmonary disease — pulmonary arterial hypertension (PAH) and pulmonary hypertension associated with interstitial lung disease (PH-ILD). Its PRINT particle-engineering technology underpins YUTREPIA, an inhaled treprostinil dry powder, and it is developing L606 (liposomal treprostinil inhalation suspension) with Pharmosa Biopharm.
+Liquidia Corporation (NASDAQ: LQDA) is a biopharmaceutical company focused on the development and commercialization of inhaled therapies for cardiopulmonary disease, specifically pulmonary arterial hypertension (PAH) and pulmonary hypertension associated with interstitial lung disease (PH-ILD). Its proprietary PRINT technology produces drug particles of uniform size and shape engineered for deep-lung deposition, and underpins YUTREPIA, its inhaled treprostinil dry powder product. Liquidia is also developing L606, a sustained-release liposomal treprostinil inhalation suspension partnered with Pharmosa Biopharm. Liquidia publishes no public developer portal, API, or machine-readable interface; this profile is catalogued for network identity, corporate transparency, and domain-security coverage only.
 
-- Website: https://www.liquidia.com/
-- Backed by: canaan-partners
+**Areas:** Company · Biopharmaceutical · Pharmaceuticals · Life Sciences · Healthcare · Drug Delivery · Pulmonary Hypertension · Clinical Trials · Inhaled Therapeutics
 
-## API surface
+## Liquidia on APIs.io
 
-Liquidia publishes **no public API**, developer portal, SDK, or machine-readable interface as of 2026-07-19. The only machine-readable surfaces are the investor-relations RSS feeds (news releases, events, SEC filings). This repo is catalogued for network identity, corporate transparency, and domain-security coverage.
+Everything profiled for Liquidia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/liquidia/](https://apis.io/providers/liquidia/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-- `apis.yml` — APIs.json 0.20 profile
-- `llms/liquidia-llms.txt` — generated llms.txt
-- `security/liquidia-domain-security.yml` — probed TLS/DNS posture
-- `well-known/liquidia-well-known.yml` — `/.well-known/` inventory (verified absence)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Liquidia Domain Security](https://apis.io/security/liquidia/liquidia-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.liquidia.com/)
+- [Support](https://www.liquidia.com/contact-us)
+- [Terms of service](https://www.liquidia.com/legal)
+- [Privacy policy](https://www.liquidia.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 7.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/liquidia/](https://apis.io/providers/liquidia/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Liquidia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/liquidia/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
